@@ -74,15 +74,15 @@ namespace WKMusicPlayer.MonoBehaviours
 
         void Update()
         {
-            if (BepInEx.UnityInput.Current.GetKeyDown(KeyCode.F9))
+            if (BepInEx.UnityInput.Current.GetKeyDown(KeyCode.F10))
             {
                 if (BepInEx.UnityInput.Current.GetKey(KeyCode.LeftShift)) _ = SongDatabase.Init();
                 else ToggleMenu();
             }
 
-            if (BepInEx.UnityInput.Current.GetKeyDown(KeyCode.F10)) Move(false);
-            if (BepInEx.UnityInput.Current.GetKeyDown(KeyCode.F11)) Move(transform);
-            if (BepInEx.UnityInput.Current.GetKeyDown(KeyCode.F12)) PauseToggle();
+            //if (BepInEx.UnityInput.Current.GetKeyDown(KeyCode.F10)) Move(false);
+            //if (BepInEx.UnityInput.Current.GetKeyDown(KeyCode.F11)) Move(true);
+            //if (BepInEx.UnityInput.Current.GetKeyDown(KeyCode.F12)) PauseToggle();
 
             if (SongDatabase.clips == null) return;
 
