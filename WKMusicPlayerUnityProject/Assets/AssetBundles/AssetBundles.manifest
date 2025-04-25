@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 1900447099
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: wkmusicplayer
+      Dependencies: {}
